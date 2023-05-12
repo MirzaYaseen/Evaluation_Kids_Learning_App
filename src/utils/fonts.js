@@ -1,0 +1,16 @@
+export const fonts = {
+  Lato_Light: 'Lato-Light',
+  Lato_Black: 'Lato-Black',
+  Lato_Regular: 'Lato-Regular',
+  Lato_Bold: 'Lato-Bold',
+  Lato_Thin: 'Lato-Thin',
+  Roboto_Thin: 'Roboto-Thin',
+  Roboto_Bold: 'Roboto-Bold',
+  Roboto_Medium: 'Roboto-Medium',
+  Roboto_Regular: 'Lato-Regular',
+  Roboto_Light: 'Roboto-Light',
+  Raleway_Regular: 'Raleway-Regular',
+  Roboto_Black: 'Roboto-Black',
+  Raleway_Light: 'Raleway-Light',
+  Raleway_Medium: 'Raleway-Medium',
+};
