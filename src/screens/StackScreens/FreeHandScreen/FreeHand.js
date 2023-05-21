@@ -32,7 +32,7 @@ const FreeHand = (props) => {
     status: props.route.params.Status,
   };
   const imgWidth = '100%';
-  const imgHeight = 550;
+  const imgHeight = 400;
 
   console.log('-=-=-=-=-=-=-=  ',parms?.status)
   const styleCanvas = `.m-signature-pad--footer

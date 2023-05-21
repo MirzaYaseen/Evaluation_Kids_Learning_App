@@ -1,5 +1,5 @@
 import React, {FC, useState} from 'react';
-import {FlatList, Pressable, StyleSheet} from 'react-native';
+import {FlatList, Pressable, StyleSheet, ScrollView} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {_Text, _View, Screen, MainHeader} from '../../../../components';
 import {theme} from '../../../../constants';
@@ -73,6 +73,7 @@ export const SelectMarginAlphabet = (props) => {
     );
   };
   return (
+    <ScrollView>
     <Screen
       StatusbackgroundColor={theme.colors.CardMargin}
       bottomSafe
@@ -92,5 +93,6 @@ export const SelectMarginAlphabet = (props) => {
         isTabSelect? <CapitalAlphabet props={props} /> : <SmallAlphabet props={props} /> 
       }
     </Screen>
+    </ScrollView>
   );
 };

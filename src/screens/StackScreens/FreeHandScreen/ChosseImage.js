@@ -31,6 +31,7 @@ import {
 import {_Image, _Text, _View} from '../../../components';
 import { lottieAnimation } from "../../../assets/lottieAnimation";
 import {SetImage} from './setImage';
+import { ScrollView } from 'react-native';
 export const ChosseImage = ({Alphabet}) => {
   console.log(Alphabet);
   switch (Alphabet) {
@@ -306,6 +307,7 @@ export const ChosseImage = ({Alphabet}) => {
     /> 
   }
   return (
+    <ScrollView>
     <_View
       height={120}
       width={'100%'}
@@ -348,5 +350,6 @@ export const ChosseImage = ({Alphabet}) => {
         </_Text>
       </_View>
     </_View>
+    </ScrollView>
   );
 };

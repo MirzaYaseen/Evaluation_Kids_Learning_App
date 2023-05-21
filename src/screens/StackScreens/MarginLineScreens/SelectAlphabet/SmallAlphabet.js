@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {Pressable, StyleSheet} from 'react-native';
+import {Pressable, StyleSheet, ScrollView} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import {_Text, _View} from '../../../../components';
 import {theme} from '../../../../constants';
@@ -18,6 +18,7 @@ export const SmallAlphabet = ({props}) => {
   };
 
   return (
+    <ScrollView>
     <_View>
       <_View
         style={{
@@ -331,6 +332,7 @@ export const SmallAlphabet = ({props}) => {
         />
       </_View>
     </_View>
+    </ScrollView>
   );
 };
 
@@ -339,6 +341,7 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     borderRadius: 30,
+    marginBottom:30,
     marginTop: 25,
     justifyContent: 'center',
     alignItems: 'center',
